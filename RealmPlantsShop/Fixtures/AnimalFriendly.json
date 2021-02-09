@@ -1,0 +1,39 @@
+[
+ {
+     "tytul" : "Areca",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 16.00,
+     "kategoria" : "Animal Friendly",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2021/02/02_06_2021_14_12_52.Zdjecie_1.131321-2-576x768.jpg"
+ },
+ {
+     "tytul" : "Calathea Freddie",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 22.00,
+     "kategoria" : "Animal Friendly",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2020/08/08_09_2020_12_02_56.Zdjecie_1.100501-576x768.jpg"
+ },
+ {
+     "tytul" : "Calathea Lancifolia",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 129.00,
+     "kategoria" : "Animal Friendly",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2021/02/02_06_2021_15_46_07.Zdjecie_1.144716-576x768.jpg"
+ },
+ {
+     "tytul" : "Calathea Makoyana",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 19.00,
+     "kategoria" : "Animal Friendly",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2020/09/09_05_2020_17_36_16.Zdjecie_1.153658-576x768.jpg"
+ }
+ ,
+ {
+     "tytul" : "Calathea Orbifolia",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 25.00,
+     "kategoria" : "Animal Friendly",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2020/09/09_05_2020_17_36_16.Zdjecie_1.153658-576x768.jpg"
+ }
+]
+ 

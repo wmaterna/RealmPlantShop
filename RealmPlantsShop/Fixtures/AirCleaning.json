@@ -1,0 +1,40 @@
+
+[
+ {
+     "tytul" : "Sansevieria kirkii",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 59.00,
+     "kategoria" : "Air Cleaning",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2020/09/09_19_2020_12_20_48.Zdjecie_1.102933-576x768.jpg"
+ },
+ {
+     "tytul" : "Sansevieria Masoniana",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 55.00,
+     "kategoria" : "Air Cleaning",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2020/08/08_16_2020_14_44_20.Zdjecie_1.124913-576x768.jpg"
+ },
+ {
+     "tytul" : "Sansevieria Cylindrica",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 65.00,
+     "kategoria" : "Air Cleaning",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2020/08/08_16_2020_14_44_20.Zdjecie_1.124913-576x768.jpg"
+ },
+ {
+     "tytul" : "Epipremnum Njoy",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 29.00,
+     "kategoria" : "Air Cleaning",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2020/05/epipremnum-njoy_12x15-0-scaled-576x768.jpg"
+ }
+ ,
+ {
+     "tytul" : "Dieffencachia",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 49.00,
+     "kategoria" : "Air Cleaning",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2020/09/09_05_2020_17_36_16.Zdjecie_1.153658-576x768.jpg"
+ }
+]
+ 

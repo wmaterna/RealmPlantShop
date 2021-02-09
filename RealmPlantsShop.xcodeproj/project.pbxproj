@@ -3,23 +3,78 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		DEB5EBFA25D2BD61005CFB02 /* RealmPlantsShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EBF925D2BD61005CFB02 /* RealmPlantsShopApp.swift */; };
-		DEB5EBFC25D2BD61005CFB02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EBFB25D2BD61005CFB02 /* ContentView.swift */; };
 		DEB5EBFE25D2BD62005CFB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB5EBFD25D2BD62005CFB02 /* Assets.xcassets */; };
 		DEB5EC0125D2BD62005CFB02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB5EC0025D2BD62005CFB02 /* Preview Assets.xcassets */; };
+		DEB5EC0B25D2BE29005CFB02 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DEB5EC0A25D2BE29005CFB02 /* Realm */; };
+		DEB5EC0D25D2BE29005CFB02 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DEB5EC0C25D2BE29005CFB02 /* RealmSwift */; };
+		DEB5EC1125D2BE5F005CFB02 /* RemoteImage in Frameworks */ = {isa = PBXBuildFile; productRef = DEB5EC1025D2BE5F005CFB02 /* RemoteImage */; };
+		DEB5EC1A25D2BEDE005CFB02 /* RealmPersistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC1925D2BEDE005CFB02 /* RealmPersistance.swift */; };
+		DEB5EC1D25D2BEED005CFB02 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC1C25D2BEED005CFB02 /* Color.swift */; };
+		DEB5EC2025D2BF06005CFB02 /* Kategoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC1F25D2BF06005CFB02 /* Kategoria.swift */; };
+		DEB5EC2325D2BF1D005CFB02 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC2225D2BF1D005CFB02 /* Product.swift */; };
+		DEB5EC2625D2BF33005CFB02 /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC2525D2BF33005CFB02 /* Basket.swift */; };
+		DEB5EC2925D2BF46005CFB02 /* KategoriaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC2825D2BF46005CFB02 /* KategoriaStore.swift */; };
+		DEB5EC2C25D2BF51005CFB02 /* ProductStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC2B25D2BF51005CFB02 /* ProductStore.swift */; };
+		DEB5EC2F25D2BF65005CFB02 /* BasektStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC2E25D2BF65005CFB02 /* BasektStore.swift */; };
+		DEB5EC3225D2BF7C005CFB02 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC3125D2BF7C005CFB02 /* MainView.swift */; };
+		DEB5EC3625D2BF90005CFB02 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC3525D2BF90005CFB02 /* CategoriesView.swift */; };
+		DEB5EC3925D2BFA2005CFB02 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC3825D2BFA2005CFB02 /* GridView.swift */; };
+		DEB5EC3C25D2BFB9005CFB02 /* GridCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC3B25D2BFB9005CFB02 /* GridCellView.swift */; };
+		DEB5EC3F25D2BFC9005CFB02 /* GridCellViewProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC3E25D2BFC9005CFB02 /* GridCellViewProduct.swift */; };
+		DEB5EC4225D2BFDE005CFB02 /* GridViewProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC4125D2BFDE005CFB02 /* GridViewProduct.swift */; };
+		DEB5EC4525D2BFF3005CFB02 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC4425D2BFF3005CFB02 /* HeaderView.swift */; };
+		DEB5EC4825D2C003005CFB02 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC4725D2C003005CFB02 /* DetailView.swift */; };
+		DEB5EC4B25D2C015005CFB02 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC4A25D2C015005CFB02 /* BasketView.swift */; };
+		DEB5EC4E25D2C028005CFB02 /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC4D25D2C028005CFB02 /* AboutUsView.swift */; };
+		DEB5EC5125D2C038005CFB02 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC5025D2C038005CFB02 /* MapView.swift */; };
+		DEB5EC5425D2C050005CFB02 /* kategorie.json in Resources */ = {isa = PBXBuildFile; fileRef = DEB5EC5325D2C050005CFB02 /* kategorie.json */; };
+		DEB5EC5725D2C065005CFB02 /* AnimalFriendly.json in Resources */ = {isa = PBXBuildFile; fileRef = DEB5EC5625D2C065005CFB02 /* AnimalFriendly.json */; };
+		DEB5EC5A25D2C07D005CFB02 /* EasyToCare.json in Resources */ = {isa = PBXBuildFile; fileRef = DEB5EC5925D2C07D005CFB02 /* EasyToCare.json */; };
+		DEB5EC5D25D2C093005CFB02 /* AirCleaning.json in Resources */ = {isa = PBXBuildFile; fileRef = DEB5EC5C25D2C093005CFB02 /* AirCleaning.json */; };
+		DEB5EC6025D2C0A9005CFB02 /* Collectible.json in Resources */ = {isa = PBXBuildFile; fileRef = DEB5EC5F25D2C0A9005CFB02 /* Collectible.json */; };
+		DEB5EC6325D2C0BE005CFB02 /* ProduktModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC6225D2C0BE005CFB02 /* ProduktModel.swift */; };
+		DEB5EC6625D2C0D1005CFB02 /* KategoriaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC6525D2C0D1005CFB02 /* KategoriaModel.swift */; };
+		DEB5EC6925D2C0EE005CFB02 /* BasketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5EC6825D2C0EE005CFB02 /* BasketModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DEB5EBF625D2BD61005CFB02 /* RealmPlantsShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmPlantsShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB5EBF925D2BD61005CFB02 /* RealmPlantsShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmPlantsShopApp.swift; sourceTree = "<group>"; };
-		DEB5EBFB25D2BD61005CFB02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEB5EBFD25D2BD62005CFB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEB5EC0025D2BD62005CFB02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEB5EC0225D2BD62005CFB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB5EC1925D2BEDE005CFB02 /* RealmPersistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmPersistance.swift; sourceTree = "<group>"; };
+		DEB5EC1C25D2BEED005CFB02 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DEB5EC1F25D2BF06005CFB02 /* Kategoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategoria.swift; sourceTree = "<group>"; };
+		DEB5EC2225D2BF1D005CFB02 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DEB5EC2525D2BF33005CFB02 /* Basket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
+		DEB5EC2825D2BF46005CFB02 /* KategoriaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriaStore.swift; sourceTree = "<group>"; };
+		DEB5EC2B25D2BF51005CFB02 /* ProductStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductStore.swift; sourceTree = "<group>"; };
+		DEB5EC2E25D2BF65005CFB02 /* BasektStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasektStore.swift; sourceTree = "<group>"; };
+		DEB5EC3125D2BF7C005CFB02 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DEB5EC3525D2BF90005CFB02 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		DEB5EC3825D2BFA2005CFB02 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		DEB5EC3B25D2BFB9005CFB02 /* GridCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellView.swift; sourceTree = "<group>"; };
+		DEB5EC3E25D2BFC9005CFB02 /* GridCellViewProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellViewProduct.swift; sourceTree = "<group>"; };
+		DEB5EC4125D2BFDE005CFB02 /* GridViewProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewProduct.swift; sourceTree = "<group>"; };
+		DEB5EC4425D2BFF3005CFB02 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DEB5EC4725D2C003005CFB02 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DEB5EC4A25D2C015005CFB02 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
+		DEB5EC4D25D2C028005CFB02 /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
+		DEB5EC5025D2C038005CFB02 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DEB5EC5325D2C050005CFB02 /* kategorie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kategorie.json; sourceTree = "<group>"; };
+		DEB5EC5625D2C065005CFB02 /* AnimalFriendly.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AnimalFriendly.json; sourceTree = "<group>"; };
+		DEB5EC5925D2C07D005CFB02 /* EasyToCare.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EasyToCare.json; sourceTree = "<group>"; };
+		DEB5EC5C25D2C093005CFB02 /* AirCleaning.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AirCleaning.json; sourceTree = "<group>"; };
+		DEB5EC5F25D2C0A9005CFB02 /* Collectible.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Collectible.json; sourceTree = "<group>"; };
+		DEB5EC6225D2C0BE005CFB02 /* ProduktModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProduktModel.swift; sourceTree = "<group>"; };
+		DEB5EC6525D2C0D1005CFB02 /* KategoriaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriaModel.swift; sourceTree = "<group>"; };
+		DEB5EC6825D2C0EE005CFB02 /* BasketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB5EC0D25D2BE29005CFB02 /* RealmSwift in Frameworks */,
+				DEB5EC0B25D2BE29005CFB02 /* Realm in Frameworks */,
+				DEB5EC1125D2BE5F005CFB02 /* RemoteImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,11 +110,17 @@
 		DEB5EBF825D2BD61005CFB02 /* RealmPlantsShop */ = {
 			isa = PBXGroup;
 			children = (
+				DEB5EC1725D2BEB0005CFB02 /* Models */,
+				DEB5EC1625D2BEA8005CFB02 /* Fixtures */,
+				DEB5EC1525D2BE9E005CFB02 /* Views */,
+				DEB5EC1425D2BE91005CFB02 /* ViewModels */,
+				DEB5EC1325D2BE86005CFB02 /* Entities */,
 				DEB5EBF925D2BD61005CFB02 /* RealmPlantsShopApp.swift */,
-				DEB5EBFB25D2BD61005CFB02 /* ContentView.swift */,
 				DEB5EBFD25D2BD62005CFB02 /* Assets.xcassets */,
 				DEB5EC0225D2BD62005CFB02 /* Info.plist */,
 				DEB5EBFF25D2BD62005CFB02 /* Preview Content */,
+				DEB5EC1925D2BEDE005CFB02 /* RealmPersistance.swift */,
+				DEB5EC1C25D2BEED005CFB02 /* Color.swift */,
 			);
 			path = RealmPlantsShop;
 			sourceTree = "<group>";
@@ -67,6 +131,66 @@
 				DEB5EC0025D2BD62005CFB02 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEB5EC1325D2BE86005CFB02 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DEB5EC1F25D2BF06005CFB02 /* Kategoria.swift */,
+				DEB5EC2225D2BF1D005CFB02 /* Product.swift */,
+				DEB5EC2525D2BF33005CFB02 /* Basket.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		DEB5EC1425D2BE91005CFB02 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DEB5EC2825D2BF46005CFB02 /* KategoriaStore.swift */,
+				DEB5EC2B25D2BF51005CFB02 /* ProductStore.swift */,
+				DEB5EC2E25D2BF65005CFB02 /* BasektStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DEB5EC1525D2BE9E005CFB02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEB5EC3125D2BF7C005CFB02 /* MainView.swift */,
+				DEB5EC3525D2BF90005CFB02 /* CategoriesView.swift */,
+				DEB5EC3825D2BFA2005CFB02 /* GridView.swift */,
+				DEB5EC3B25D2BFB9005CFB02 /* GridCellView.swift */,
+				DEB5EC3E25D2BFC9005CFB02 /* GridCellViewProduct.swift */,
+				DEB5EC4125D2BFDE005CFB02 /* GridViewProduct.swift */,
+				DEB5EC4425D2BFF3005CFB02 /* HeaderView.swift */,
+				DEB5EC4725D2C003005CFB02 /* DetailView.swift */,
+				DEB5EC4A25D2C015005CFB02 /* BasketView.swift */,
+				DEB5EC4D25D2C028005CFB02 /* AboutUsView.swift */,
+				DEB5EC5025D2C038005CFB02 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEB5EC1625D2BEA8005CFB02 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				DEB5EC5325D2C050005CFB02 /* kategorie.json */,
+				DEB5EC5625D2C065005CFB02 /* AnimalFriendly.json */,
+				DEB5EC5925D2C07D005CFB02 /* EasyToCare.json */,
+				DEB5EC5C25D2C093005CFB02 /* AirCleaning.json */,
+				DEB5EC5F25D2C0A9005CFB02 /* Collectible.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		DEB5EC1725D2BEB0005CFB02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DEB5EC6225D2C0BE005CFB02 /* ProduktModel.swift */,
+				DEB5EC6525D2C0D1005CFB02 /* KategoriaModel.swift */,
+				DEB5EC6825D2C0EE005CFB02 /* BasketModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +209,11 @@
 			dependencies = (
 			);
 			name = RealmPlantsShop;
+			packageProductDependencies = (
+				DEB5EC0A25D2BE29005CFB02 /* Realm */,
+				DEB5EC0C25D2BE29005CFB02 /* RealmSwift */,
+				DEB5EC1025D2BE5F005CFB02 /* RemoteImage */,
+			);
 			productName = RealmPlantsShop;
 			productReference = DEB5EBF625D2BD61005CFB02 /* RealmPlantsShop.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +241,10 @@
 				Base,
 			);
 			mainGroup = DEB5EBED25D2BD61005CFB02;
+			packageReferences = (
+				DEB5EC0925D2BE29005CFB02 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				DEB5EC0F25D2BE5F005CFB02 /* XCRemoteSwiftPackageReference "RemoteImage" */,
+			);
 			productRefGroup = DEB5EBF725D2BD61005CFB02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +260,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEB5EC0125D2BD62005CFB02 /* Preview Assets.xcassets in Resources */,
+				DEB5EC5A25D2C07D005CFB02 /* EasyToCare.json in Resources */,
+				DEB5EC5425D2C050005CFB02 /* kategorie.json in Resources */,
+				DEB5EC6025D2C0A9005CFB02 /* Collectible.json in Resources */,
+				DEB5EC5D25D2C093005CFB02 /* AirCleaning.json in Resources */,
+				DEB5EC5725D2C065005CFB02 /* AnimalFriendly.json in Resources */,
 				DEB5EBFE25D2BD62005CFB02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +276,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEB5EBFC25D2BD61005CFB02 /* ContentView.swift in Sources */,
+				DEB5EC4B25D2C015005CFB02 /* BasketView.swift in Sources */,
+				DEB5EC6625D2C0D1005CFB02 /* KategoriaModel.swift in Sources */,
+				DEB5EC2C25D2BF51005CFB02 /* ProductStore.swift in Sources */,
+				DEB5EC2025D2BF06005CFB02 /* Kategoria.swift in Sources */,
+				DEB5EC4825D2C003005CFB02 /* DetailView.swift in Sources */,
+				DEB5EC2625D2BF33005CFB02 /* Basket.swift in Sources */,
+				DEB5EC2925D2BF46005CFB02 /* KategoriaStore.swift in Sources */,
+				DEB5EC1D25D2BEED005CFB02 /* Color.swift in Sources */,
 				DEB5EBFA25D2BD61005CFB02 /* RealmPlantsShopApp.swift in Sources */,
+				DEB5EC3C25D2BFB9005CFB02 /* GridCellView.swift in Sources */,
+				DEB5EC3225D2BF7C005CFB02 /* MainView.swift in Sources */,
+				DEB5EC1A25D2BEDE005CFB02 /* RealmPersistance.swift in Sources */,
+				DEB5EC3625D2BF90005CFB02 /* CategoriesView.swift in Sources */,
+				DEB5EC3F25D2BFC9005CFB02 /* GridCellViewProduct.swift in Sources */,
+				DEB5EC4E25D2C028005CFB02 /* AboutUsView.swift in Sources */,
+				DEB5EC6325D2C0BE005CFB02 /* ProduktModel.swift in Sources */,
+				DEB5EC4225D2BFDE005CFB02 /* GridViewProduct.swift in Sources */,
+				DEB5EC2325D2BF1D005CFB02 /* Product.swift in Sources */,
+				DEB5EC6925D2C0EE005CFB02 /* BasketModel.swift in Sources */,
+				DEB5EC3925D2BFA2005CFB02 /* GridView.swift in Sources */,
+				DEB5EC5125D2C038005CFB02 /* MapView.swift in Sources */,
+				DEB5EC2F25D2BF65005CFB02 /* BasektStore.swift in Sources */,
+				DEB5EC4525D2BFF3005CFB02 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +487,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DEB5EC0925D2BE29005CFB02 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.5.1;
+			};
+		};
+		DEB5EC0F25D2BE5F005CFB02 /* XCRemoteSwiftPackageReference "RemoteImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/crelies/RemoteImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DEB5EC0A25D2BE29005CFB02 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEB5EC0925D2BE29005CFB02 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		DEB5EC0C25D2BE29005CFB02 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEB5EC0925D2BE29005CFB02 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		DEB5EC1025D2BE5F005CFB02 /* RemoteImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEB5EC0F25D2BE5F005CFB02 /* XCRemoteSwiftPackageReference "RemoteImage" */;
+			productName = RemoteImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DEB5EBEE25D2BD61005CFB02 /* Project object */;
 }

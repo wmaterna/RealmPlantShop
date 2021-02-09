@@ -1,0 +1,39 @@
+[
+ {
+     "tytul" : "Alocasia",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 290.00,
+     "kategoria" : "Collectible",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2020/09/09_19_2020_12_20_48.Zdjecie_1.102933-576x768.jpg"
+ },
+ {
+     "tytul" : "Sansevieria Masoniana",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 55.00,
+     "kategoria" : "Collectible",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2021/02/02_06_2021_16_28_46.Zdjecie_1.152954-1-576x768.jpg"
+ },
+ {
+     "tytul" : "Calathea White Fusion",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 309.00,
+     "kategoria" : "Collectible",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2021/02/02_06_2021_14_56_00.Zdjecie_1.135630-2-576x768.jpg"
+ },
+ {
+     "tytul" : "Marantha Kerchoveana",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 349.00,
+     "kategoria" : "Collectible",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2021/02/02_06_2021_16_48_07.Zdjecie_1.154918-2-576x768.jpg"
+ }
+ ,
+ {
+     "tytul" : "Monstera dubia",
+     "opis" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+     "cena" : 850.00,
+     "kategoria" : "Collectible",
+     "url" : "https://www.jungleboogie.pl/wp-content/uploads/2020/10/10_25_2020_15_10_55.Zdjecie_1.143033-576x768.jpg"
+ }
+]
+ 
